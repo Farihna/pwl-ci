@@ -4,7 +4,7 @@
 <div class="d-flex align-items-center justify-content-between">
   <a href="index.html" class="logo d-flex align-items-center">
     <img src="<?= base_url()?>NiceAdmin/assets/img/logo.png" alt="">
-    <span class="d-none d-lg-block">Toko Tetangga</span>
+    <span class="d-none d-lg-block">TokoKU</span>
   </a>
   <i class="bi bi-list toggle-sidebar-btn"></i>
 </div><!-- End Logo -->
@@ -175,7 +175,7 @@
 
       <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
         <li class="dropdown-header">
-          <h6>Kevin Anderson</h6>
+          <h6><?= session()->get('username'); ?></h6>
           <span>Web Designer</span>
         </li>
         <li>

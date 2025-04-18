@@ -7,7 +7,7 @@ use CodeIgniter\HTTP\ResponseInterface;
 
 class AuthController extends BaseController
 {
-    function __construct(){
+    function __construct() {
         helper('form');
     }
 
