@@ -100,8 +100,16 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
     );
 
     public static $classMap = array (
+        'App\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Controllers/AuthController.php',
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Controllers/BaseController.php',
         'App\\Controllers\\Home' => __DIR__ . '/../..' . '/app/Controllers/Home.php',
+        'App\\Controllers\\ProdukController' => __DIR__ . '/../..' . '/app/Controllers/ProdukController.php',
+        'App\\Controllers\\TransaksiController' => __DIR__ . '/../..' . '/app/Controllers/TransaksiController.php',
+        'App\\Database\\Seeds\\ProductSeeder' => __DIR__ . '/../..' . '/app/Database/Seeds/ProductSeeder.php',
+        'App\\Database\\Seeds\\UserSeeder' => __DIR__ . '/../..' . '/app/Database/Seeds/UserSeeder.php',
+        'App\\Filters\\Auth' => __DIR__ . '/../..' . '/app/Filters/Auth.php',
+        'App\\Models\\ProductModel' => __DIR__ . '/../..' . '/app/Models/ProductModel.php',
+        'App\\Models\\UserModel' => __DIR__ . '/../..' . '/app/Models/UserModel.php',
         'CodeIgniter\\API\\ResponseTrait' => __DIR__ . '/..' . '/codeigniter4/framework/system/API/ResponseTrait.php',
         'CodeIgniter\\Autoloader\\Autoloader' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
         'CodeIgniter\\Autoloader\\FileLocator' => __DIR__ . '/..' . '/codeigniter4/framework/system/Autoloader/FileLocator.php',
@@ -1077,6 +1085,7 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/ValidGenerator.php',
         'Laminas\\Escaper\\Escaper' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Escaper.php',
+        'Laminas\\Escaper\\EscaperInterface' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/EscaperInterface.php',
         'Laminas\\Escaper\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/ExceptionInterface.php',
         'Laminas\\Escaper\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/InvalidArgumentException.php',
         'Laminas\\Escaper\\Exception\\RuntimeException' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/RuntimeException.php',

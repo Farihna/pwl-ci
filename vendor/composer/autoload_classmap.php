@@ -6,8 +6,16 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controllers\\AuthController' => $baseDir . '/app/Controllers/AuthController.php',
     'App\\Controllers\\BaseController' => $baseDir . '/app/Controllers/BaseController.php',
     'App\\Controllers\\Home' => $baseDir . '/app/Controllers/Home.php',
+    'App\\Controllers\\ProdukController' => $baseDir . '/app/Controllers/ProdukController.php',
+    'App\\Controllers\\TransaksiController' => $baseDir . '/app/Controllers/TransaksiController.php',
+    'App\\Database\\Seeds\\ProductSeeder' => $baseDir . '/app/Database/Seeds/ProductSeeder.php',
+    'App\\Database\\Seeds\\UserSeeder' => $baseDir . '/app/Database/Seeds/UserSeeder.php',
+    'App\\Filters\\Auth' => $baseDir . '/app/Filters/Auth.php',
+    'App\\Models\\ProductModel' => $baseDir . '/app/Models/ProductModel.php',
+    'App\\Models\\UserModel' => $baseDir . '/app/Models/UserModel.php',
     'CodeIgniter\\API\\ResponseTrait' => $vendorDir . '/codeigniter4/framework/system/API/ResponseTrait.php',
     'CodeIgniter\\Autoloader\\Autoloader' => $vendorDir . '/codeigniter4/framework/system/Autoloader/Autoloader.php',
     'CodeIgniter\\Autoloader\\FileLocator' => $vendorDir . '/codeigniter4/framework/system/Autoloader/FileLocator.php',
@@ -983,6 +991,7 @@ return array(
     'Faker\\UniqueGenerator' => $vendorDir . '/fakerphp/faker/src/Faker/UniqueGenerator.php',
     'Faker\\ValidGenerator' => $vendorDir . '/fakerphp/faker/src/Faker/ValidGenerator.php',
     'Laminas\\Escaper\\Escaper' => $vendorDir . '/laminas/laminas-escaper/src/Escaper.php',
+    'Laminas\\Escaper\\EscaperInterface' => $vendorDir . '/laminas/laminas-escaper/src/EscaperInterface.php',
     'Laminas\\Escaper\\Exception\\ExceptionInterface' => $vendorDir . '/laminas/laminas-escaper/src/Exception/ExceptionInterface.php',
     'Laminas\\Escaper\\Exception\\InvalidArgumentException' => $vendorDir . '/laminas/laminas-escaper/src/Exception/InvalidArgumentException.php',
     'Laminas\\Escaper\\Exception\\RuntimeException' => $vendorDir . '/laminas/laminas-escaper/src/Exception/RuntimeException.php',
